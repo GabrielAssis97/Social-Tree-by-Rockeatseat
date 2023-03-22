@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
 :root {
-    --body-bg-color: #FAF7FD;
-    --purple: #BB99DD;
-  }
+    --body-bg-color: #181920;
+    --purple: #5568fe;
+    --white: #f8f0ff;
+    }
 
   * {
     margin: 0;
@@ -54,7 +55,9 @@
 
   .tree-container .insta-user {
     margin-top: 15px;
-    color: var(--purple);
+    color: var(--white);
+    font-size: large;
+    font-weight: 400;
   }
 
   .tree-container .links-container {
@@ -105,6 +108,8 @@
 
   .social-container .social:hover{
     transform: scale(5);
-  }
+}
 
-
+.container .tree-container .links-container ul a {
+  color: #f0f8ff;
+}
